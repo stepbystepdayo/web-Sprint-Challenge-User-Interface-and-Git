@@ -49,17 +49,55 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border:1px solid black; */
+
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+.logo{
+        width:20%;
+        
+
+}
+
+.head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:800px;
+    margin:0 auto;
+
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  width:80%;
+ 
+}
+
+nav a{
+    font-size:20px;
+    color:black;
+    padding:4% 0;
+    text-transform: capitalize;
+    
+}
+
+.bg-picture{
+    display:flex;
+    justify-content:center;
+    padding:2% 0;
 }
 
 p {
@@ -101,10 +139,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +181,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* colors */
+
+.teal{
+    background-color:teal;
+}
+.gold{
+    background-color:gold;
+}
+.cadetblue{
+    background-color:cadetblue;
+}
+.coral{
+    background-color:coral;
+}
+.crimson{
+    background-color:crimson;
+}
+.forestgreen{
+    background-color:forestgreen;
+}
+.darkorchid{
+    background-color:darkorchid;
+    }
+.hotpink{
+    background-color:hotpink;
+}
+.indigo{
+    background-color:indigo;
+}
+.dodgerblue{
+    background-color:dodgerblue;
 }
